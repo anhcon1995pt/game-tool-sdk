@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="AdsSettingWindowsStyle.uss" />
+    <ui:VisualElement style="width: 500px; height: auto; flex-direction: column; align-items: center;">
+        <ui:ScrollView style="width: 500px;">
+            <ui:VisualElement style="width: 500px; height: 50px; flex-direction: row; align-items: center; justify-content: center;">
+                <ui:Label text="Admob:" display-tooltip-when-elided="true" style="-unity-font-style: bold; width: 93px; font-size: 20px;" />
+                <ui:Label text="NOT FOND" display-tooltip-when-elided="true" name="lbStatus" style="-unity-font-style: bold; width: 155px; font-size: 20px;" />
+                <ui:Label text="Version: " display-tooltip-when-elided="true" style="font-size: 20px; width: 89px;" />
+                <ui:Label text="Not fond" display-tooltip-when-elided="true" name="lbVersion" style="font-size: 20px; width: 82px; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 500px; height: auto; flex-direction: column; align-items: center; justify-content: flex-start;">
+                <ui:Button text="Check Update" display-tooltip-when-elided="true" name="btnGetNewAdmobVer" />
+                <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: center; width: 500px;">
+                    <ui:Label text="Latest Ver:" display-tooltip-when-elided="true" style="font-size: 20px; width: 123px;" />
+                    <ui:Label text="N/A" display-tooltip-when-elided="true" name="lbLatestVer" style="font-size: 20px; width: 96px;" />
+                    <ui:Button text="Update" display-tooltip-when-elided="true" name="btnUpdateNewVer" />
+                </ui:VisualElement>
+                <ui:Label style="width: 450px; height: 20px; background-color: rgb(42, 42, 42); -unity-text-align: middle-center; color: rgb(255, 255, 255);">
+                    <ui:Label name="lbProcessBar" style="width: 0; height: 20px; background-color: rgb(0, 137, 255); -unity-text-align: middle-center; min-width: 0; min-height: 20px; max-height: 20px; max-width: 450px; color: rgb(255, 255, 255);">
+                        <ui:Label text="DownLoad" style="width: 450px; height: 20px; -unity-text-align: middle-center; min-width: 0; min-height: 20px; max-height: 20px; max-width: 450px; display: flex; overflow: hidden; color: rgb(255, 255, 255); opacity: 1;" />
+                    </ui:Label>
+                </ui:Label>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 500px; align-items: center;">
+                <uie:PropertyField binding-path="_admobData" name="admobDataField" text="Check Update" style="width: 485px;" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

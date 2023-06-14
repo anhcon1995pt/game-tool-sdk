@@ -1,0 +1,18 @@
+{
+    "name": "ac.gametool.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cf9bc40851fbadc4a9911c43e02ac85f",
+        "GUID:478a2357cc57436488a56e564b08d223"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

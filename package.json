@@ -1,0 +1,16 @@
+{
+  "name": "com.ac.gametool",
+  "version": "1.0.1",
+  "displayName": "Game Tool",
+  "description": "GameTool: Công cụ quản lý và khởi tạo các SDK cơ bản",
+  "unity": "2019.4",
+  "documentationUrl": "https://github.com/anhcon1995pt/Game-Tool-SDK",
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.0.0"
+ },
+  "author": {
+    "name": "AC Tuan Anh",
+    "email": "anhcon1995pt@gmail.com",
+    "url": "https://www.facebook.com/anhcon1995pt"
+  }
+}
