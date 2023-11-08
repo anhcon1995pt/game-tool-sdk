@@ -16,7 +16,7 @@ jobs:
    #Install Node.js, with the version 12 and using the registry URL of npm, this could be changed to a custom registry or the GitHub registry.
    - uses: actions/setup-node@v1
      with:
-       node-version: 12
+       node-version: 16
        registry-url: https://registry.npmjs.org/
  
    # Command to install the package dependencies
